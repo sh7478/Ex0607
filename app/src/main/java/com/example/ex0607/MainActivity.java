@@ -27,6 +27,17 @@ public class MainActivity extends AppCompatActivity {
     public void clicked(View view)
     {
         randomNum = rnd.nextInt(3+1-1)+1;
-
+        switch (randomNum)
+        {
+            case 1:
+                imageBtn.setImageResource(R.drawable.image1);
+                break;
+            case 2:
+                imageBtn.setImageResource(R.drawable.image2);
+                break;
+            case 3:
+                imageBtn.setImageResource(R.drawable.image3);
+                break;
+        }
     }
 }
