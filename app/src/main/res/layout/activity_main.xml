@@ -36,10 +36,11 @@
             android:layout_weight="1" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageBtn"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:onClick="clicked"
             app:srcCompat="@drawable/clickforimage" />
 
         <Space
